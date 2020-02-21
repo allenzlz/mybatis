@@ -46,6 +46,7 @@ public class Student {
     }
 
     public void setGraname(String graname) {
+        System.out.println(12);
         this.graname = graname == null ? null : graname.trim();
     }
 
